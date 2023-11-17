@@ -1,5 +1,5 @@
 with source as (
-        select * from {{ ref('stg_okta__system_log') }}
+        select * from {{ ref('stg_okta_system_log') }}
 ),
 
 final as (
